@@ -1,0 +1,6 @@
+-- Built-in cheque layouts: readable by everyone, changed by nobody.
+INSERT INTO `templates` (`id`, `name`, `bank_name`, `currency`, `width_mm`, `height_mm`, `layout`, `built_in`) VALUES ('builtin-uae', 'Standard UAE cheque', 'Any UAE bank', 'AED', 178, 86, '{"fontSizePt":11,"date":{"x":140,"y":11},"payee":{"x":20,"y":27,"w":118},"words":{"x":30,"y":35,"w":108,"lines":2,"x2":10,"y2":43},"figures":{"x":143,"y":40},"memo":{"x":14,"y":60},"crossing":{"x":70,"y":4}}', 1);
+--> statement-breakpoint
+INSERT INTO `templates` (`id`, `name`, `bank_name`, `currency`, `width_mm`, `height_mm`, `layout`, `built_in`) VALUES ('builtin-ksa', 'Standard Saudi cheque', 'Any Saudi bank', 'SAR', 176, 80, '{"fontSizePt":11,"date":{"x":138,"y":10},"payee":{"x":22,"y":25,"w":112},"words":{"x":30,"y":33,"w":104,"lines":2,"x2":12,"y2":41},"figures":{"x":140,"y":38},"memo":{"x":14,"y":56},"crossing":{"x":68,"y":4}}', 1);
+--> statement-breakpoint
+INSERT INTO `templates` (`id`, `name`, `bank_name`, `currency`, `width_mm`, `height_mm`, `layout`, `built_in`) VALUES ('builtin-dz', 'Standard Algerian cheque', 'Any Algerian bank', 'DZD', 175, 80, '{"fontSizePt":10,"date":{"x":120,"y":50},"payee":{"x":20,"y":35,"w":120},"words":{"x":36,"y":19,"w":100,"lines":2,"x2":10,"y2":27},"figures":{"x":138,"y":10},"memo":{"x":14,"y":58},"crossing":{"x":60,"y":4}}', 1);
